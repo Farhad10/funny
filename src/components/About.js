@@ -15,8 +15,8 @@ const page = () => {
 The Best Shows
 </h2>
 <p className='flex justify-center'>
-They combine high end furniture materials with creative styles that make them simply unique. Whether it's a bed base, a leather sofa, a solid wood dining table, or a sideboard, every piece of furniture can be a piece of luxury.
-A good quality piece of furniture should be structurally sound, solid and well-built to ensure its prolonged use over the years. You should feel safe when sitting in, or leaning on the piece, and you shouldn't be able to recognize any sway, give or flex in it.
+They combine high end furniture materials with creative styles that make them simply unique. Whether it a bed base, a leather sofa, a solid wood dining table, or a sideboard, every piece of furniture can be a piece of luxury.
+A good quality piece of furniture should be structurally sound, solid and well-built to ensure its prolonged use over the years. You should feel safe when sitting in, or leaning on the piece, and you should not be able to recognize any sway, give or flex in it.
 </p>
       </div>
       <div className=' grid grid-cols-2 gap-4 lg:ml-20 lg:mr-32 m-4'>
@@ -90,7 +90,7 @@ A good quality piece of furniture should be structurally sound, solid and well-b
       Peaky Blinder
       </h2>
       <p className='flex justify-center mb-6'>
-      Peaky Blinders is a crime drama centred on a family of mixed Irish Traveller and Romani origins based in Birmingham, England, starting in 1919, several months after the end of the First World War. It centres on the Peaky Blinders street gang and their ambitious, cunning crime boss Tommy Shelby (Murphy). The gang comes to the attention of Major Chester Campbell (Neill), a detective chief inspector in the Royal Irish Constabulary sent over by Winston Churchill from Belfast, where he had been sent to clean up the city of the Irish Republican Army flying columns, the Communist Party of Great Britain, street gangs, and common criminals.The first series concludes on 3 December 1919—"Black Star Day", the event where the Peaky Blinders plan to take over Billy Kimber's betting pitches at the Worcester Races.
+      Peaky Blinders is a crime drama centred on a family of mixed Irish Traveller and Romani origins based in Birmingham, England, starting in 1919, several months after the end of the First World War. It centres on the Peaky Blinders street gang and their ambitious, cunning crime boss Tommy Shelby (Murphy). The gang comes to the attention of Major Chester Campbell (Neill), a detective chief inspector in the Royal Irish Constabulary sent over by Winston Churchill from Belfast, where he had been sent to clean up the city of the Irish Republican Army flying columns, the Communist Party of Great Britain, street gangs, and common criminals.The first series concludes on 3 December 1919, the event where the Peaky Blinders plan to take over Billy Kimber betting pitches at the Worcester Races.
       </p>
       <div className='flex justify-center'>
       <Button text="Watch Now" />

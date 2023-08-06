@@ -7,7 +7,7 @@ import Button from './Button';
 
 
 // import ToolTip from './ToolTip';
-const header = () => {
+const Header = () => {
    const [isMenuOpen, setIsMenuOpen] = useState(false);
    const [activeLink, setActiveLink] = useState(0);
 
@@ -184,4 +184,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header

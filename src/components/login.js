@@ -2,7 +2,9 @@
 import { useState } from 'react';
 import React from 'react'
 import Link from 'next/link';
-const login = () => {
+import Image from 'next/image';
+
+const Login = () => {
     
 const [formData, setFormData] = useState({
     name: '',
@@ -164,7 +166,7 @@ const [formData, setFormData] = useState({
 
             
             <p class="mb-0 mt-2 pt-1 text-sm font-semibold">
-              Don't have an account?
+              Dont have an account?
               <Link
                 href="/signin"
                 class="text-danger transition duration-150 ease-in-out hover:text-danger-600 focus:text-danger-600 active:text-danger-700"
@@ -176,7 +178,9 @@ const [formData, setFormData] = useState({
       </div>
       <div
         class="shrink-1 hidden lg:block  mb-12 grow-0 basis-auto md:mb-0 md:w-9/12 md:shrink-0 lg:w-6/12 xl:w-6/12">
-        <img
+        <Image
+        height={500}
+        width={500}
           src="/images/moneyhiest.jpg"
           class="w-full rounded-lg"
           alt="Sample image" />
@@ -189,7 +193,7 @@ const [formData, setFormData] = useState({
   )
 }
 
-export default login
+export default Login
 
 
 

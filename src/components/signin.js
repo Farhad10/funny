@@ -2,7 +2,8 @@
 import { useState } from 'react';
 import React from 'react'
 import Link from 'next/link';
-const signin = () => {
+import Image from 'next/image';
+const Signin = () => {
     
 const [formData, setFormData] = useState({
     name: '',
@@ -30,7 +31,9 @@ const [formData, setFormData] = useState({
       class="g-6 flex h-full flex-wrap items-center justify-center lg:justify-between">
       <div
         class="shrink-1 hidden lg:block mb-12 grow-0 basis-auto md:mb-0 md:w-9/12 md:shrink-0 lg:w-6/12 xl:w-6/12">
-        <img
+        <Image
+        height={500}
+        width={500}
           src="/images/got.jpg"
           class="w-full rounded-lg"
           alt="Sample image" />
@@ -217,7 +220,7 @@ const [formData, setFormData] = useState({
   )
 }
 
-export default signin
+export default Signin
 
 
 
