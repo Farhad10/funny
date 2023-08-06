@@ -10,8 +10,6 @@ const Movie = (curElem) => {
             <div className="group">
               <div className="relative">
               <Image src={curElem.jawSummary.backgroundImage.url} alt={title} width={500} height={230} class="w-full h-auto rounded-lg" />
-
-          
           
                 <div className="absolute inset-0 rounded-lg bg-black duration-500 opacity-0 group-hover:opacity-75"></div>
               </div>
